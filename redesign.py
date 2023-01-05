@@ -2,11 +2,12 @@
 import random
 from time import sleep
 
-# Rich imports for creating better UI
+# imports for creating better UI
 from rich import print
 from rich.traceback import install
 from rich.console import Console
 from rich.padding import Padding
+from pyfiglet import Figlet
 
 # UI elements 
 console = Console()
@@ -15,6 +16,11 @@ input_style = "[bold blue]"
 rule_style = "[bold red]"
 print_style = "bold green"
 
+# Header Text
+f = Figlet(font="doom", justify="center", width=150)
+console.print(f.renderText('Odd Even Game'), style="bold blue")
+console.rule("[bold red]Enter Player Names")
+print()
 
 runs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 player1_name = console.input(f"{input_style}Enter Player 1's Name :right_arrow: :right_arrow: ")
