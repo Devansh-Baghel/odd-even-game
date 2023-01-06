@@ -1,7 +1,14 @@
 # Odd Even Game
 We as kids used to play a game that many people remember as "hand cricket" or "odd even".
 
+How this game is traditionally played is best described [here](https://www.instructables.com/How-to-Play-Hand-Cricket/).
+
 This is a version of that game in which you can watch two bots<sup>1</sup> play against each other.
+
+## Screenshots
+<img src="https://i.imgur.com/rXiTVmX.png" width="700">
+<img src="https://i.imgur.com/Egbx6XQ.png" width="400">
+These are shorter games just as an example, sometimes final score could go up in the 100s.
 
 ## Requirements
 1. Install rich library
