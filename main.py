@@ -24,7 +24,7 @@ console.print(f.renderText('Odd Even Game'), style="bold blue")
 console.rule("[bold red]Enter Player Names")
 print()
 
-runs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+runs = [1, 2, 3, 4, 5, 6,]
 player1_name = console.input(f"{input_style}Enter Player 1's Name :right_arrow: :right_arrow: ")
 player2_name = console.input(f"{input_style}Enter Player 2's Name :right_arrow: :right_arrow: ")
 player1 = [True, player1_name]
