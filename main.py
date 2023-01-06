@@ -7,7 +7,7 @@ from rich import print
 from rich.traceback import install
 from rich.console import Console
 from rich.padding import Padding
-from pyfiglet import Figlet
+# from pyfiglet import Figlet
 
 # UI elements 
 console = Console()
@@ -17,8 +17,10 @@ rule_style = "[bold red]"
 print_style = "bold green"
 
 # Header Text
+'''
 f = Figlet(font="doom", justify="center", width=150)
 console.print(f.renderText('Odd Even Game'), style="bold blue")
+'''
 console.rule("[bold red]Enter Player Names")
 print()
 
