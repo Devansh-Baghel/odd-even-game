@@ -3,7 +3,7 @@ We as kids used to play a game that many people remember as "hand cricket" or "o
 
 How this game is traditionally played is best described [here](https://www.instructables.com/How-to-Play-Hand-Cricket/).
 
-This is a version of that game in which you can watch two bots<sup>1</sup> play against each other.
+This is a version of that game in which you can watch two bots play against each other.
 
 ## Screenshots
 <img src="https://i.imgur.com/rXiTVmX.png" width="700">
@@ -36,6 +36,3 @@ python main.py
 
 ## Project Timeline
 1. Will be adding an option for user to play against the bot
-
-<hr>
-<h6>1. Here i am using the word "bot" very loosely, this is not an actual bot. </h6>
